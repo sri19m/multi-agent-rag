@@ -1,0 +1,40 @@
+# Core LLM & Agent Frameworks
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-aws==0.1.17
+crewai==0.51.0
+crewai-tools==0.8.3
+
+# AWS
+boto3==1.35.0
+botocore==1.35.0
+
+# Vector Stores
+faiss-cpu==1.8.0
+chromadb==0.5.5
+
+# Embeddings & Retrieval
+sentence-transformers==3.0.1
+rank-bm25==0.2.2
+
+# Document Processing
+pypdf==4.3.1
+python-docx==1.1.2
+unstructured==0.15.0
+
+# Data & Utilities
+numpy==1.26.4
+pandas==2.2.2
+pyyaml==6.0.2
+python-dotenv==1.0.1
+tqdm==4.66.5
+rich==13.7.1
+typer==0.12.5
+
+# Evaluation
+rouge-score==0.1.2
+nltk==3.9.1
+
+# Testing
+pytest==8.3.2
+pytest-asyncio==0.23.8
