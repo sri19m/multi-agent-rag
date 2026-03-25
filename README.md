@@ -76,7 +76,7 @@ multi-agent-rag/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/multi-agent-rag.git
+git clone https://github.com/sri19m/multi-agent-rag.git
 cd multi-agent-rag
 ```
 
