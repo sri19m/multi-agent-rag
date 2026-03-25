@@ -1,10 +1,10 @@
-# 🤖 Multi-Agent RAG Orchestration System
+# Multi-Agent RAG Orchestration System
 
 A production-grade multi-agent Retrieval-Augmented Generation (RAG) framework built with **LangChain**, **CrewAI**, **AWS Bedrock**, and **hybrid retrieval** (BM25 + vector embeddings). Designed for large-scale financial document Q&A with dynamic agent delegation, reward-based response ranking, and retrieval ablation studies.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Query
@@ -31,7 +31,7 @@ OrchestratorAgent  ─── RL-inspired Reward Ranker
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 multi-agent-rag/
@@ -112,7 +112,7 @@ Enable model access in AWS Bedrock console → Model Access → Enable `anthropi
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Ingest Documents
 ```bash
@@ -148,7 +148,7 @@ python scripts/run_ablation.py --output results/ablation_results.json
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Edit `config/config.yaml` to adjust:
 - LLM model (`claude-3-sonnet`, `titan`, etc.)
@@ -159,7 +159,7 @@ Edit `config/config.yaml` to adjust:
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 ```bash
 pytest tests/ -v
 ```
